@@ -1,0 +1,28 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.util.*;
+
+    class FixingNullPointerException {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            String string = scanner.nextLine();
+            string = "null".equals(string) ? null : string;
+            /* Do not change code above */
+
+            System.out.println(string.toLowerCase());
+        }
+    }
+  learner_created: false
+- name: src/module-info.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/3822#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 13 Mar 2021 18:48:40 UTC
+record: -1

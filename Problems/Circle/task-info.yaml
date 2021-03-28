@@ -1,0 +1,22 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Circle {
+
+        double radius;
+
+        // write methods here
+    }
+  learner_created: false
+- name: src/module-info.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2955#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 4. Wrong answer
+  time: Mon, 15 Mar 2021 07:05:12 UTC
+record: -1

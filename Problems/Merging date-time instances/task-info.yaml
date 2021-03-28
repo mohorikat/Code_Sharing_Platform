@@ -1,0 +1,50 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.time.LocalDateTime;
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static LocalDateTime merge(LocalDateTime dateTime1, LocalDateTime dateTime2) {
+            // write your code here
+        }
+
+        /* Do not change code below */
+        public static void main(String[] args) {
+            final Scanner scanner = new Scanner(System.in);
+            final LocalDateTime firstDateTime = LocalDateTime.parse(scanner.nextLine());
+            final LocalDateTime secondDateTime = LocalDateTime.parse(scanner.nextLine());
+            System.out.println(merge(firstDateTime, secondDateTime));
+        }
+    }
+  learner_created: false
+- name: src/module-info.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2860#comment
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 5. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    2018-10-20T22:30
+    2017-12-30T22:31:45
+    Correct output:
+    2018-12-30T22:31:45
+
+    Your code output:
+    2018-12-30T22:31:45
+    2019-12-31T23:59:59
+    2019-12-31T23:59:59
+    2019-12-31T23:59:59.999999999
+    2019-12-31T23:59
+    2020-01-01T00:00
+    2019-12-31T23:59:59
+  time: Sat, 20 Mar 2021 10:46:27 UTC
+record: -1

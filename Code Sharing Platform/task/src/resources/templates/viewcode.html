@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org"
+      xmlns:javatime="http://sargue.net/jsptags/time">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Code</title>
+</head>
+<body>
+<span id="load_date"th:text="${theNewCode.date}"/>
+
+<pre id="code_snippet" th:text=" ${theNewCode.code}"></pre>
+</body>
+</html>

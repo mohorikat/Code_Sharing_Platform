@@ -1,0 +1,23 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Application {
+
+        String name;
+
+        void run(String[] args) {
+            // implement me
+        }
+    }
+  learner_created: false
+- name: src/module-info.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2954#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 14 Mar 2021 10:37:48 UTC
+record: -1

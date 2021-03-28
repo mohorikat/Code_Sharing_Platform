@@ -1,0 +1,45 @@
+content:
+- Avoid division by zero
+- Avoid NPE
+- Return empty string when argument is null
+- Division
+- Raise to the power
+- Calculating factorials
+- Print "We are robots!"
+- Create a full name
+- Decompose a math function
+- Calculator with four methods
+- Adding values
+- Application as a class
+- Get first and last elements
+- Representing time as a class
+- Inner boxes
+- Complex numbers
+- Books
+- Account and its owner
+- Complex numbers (1)
+- User
+- Book
+- Circle
+- Counter
+- Simulating a clock
+- Car
+- Preparing full name
+- Army
+- Only true or false
+- Safe converting
+- Pastry packing optimization
+- Correct the program
+- Concat positive numbers
+- Find the nearest number
+- Creating list
+- calculator
+- The first and the last day of a month
+- Find all mondays
+- The n-th day from the end of a month
+- Print dates of a year with an offset
+- Seconds between two time points
+- Merging date-time instances
+- Adding N minutes
+- Whole hours between two date-time pairs
+- The passed hours since the beginning of year
